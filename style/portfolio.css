@@ -20,6 +20,7 @@ nav {
     display: flex;
    align-items: center;
    justify-content: space-between;
+   margin: 0 230px;
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -41,4 +42,16 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+.header {
+    background: #FFF8F3;
+}
+.name {
+    padding: 30 px 30px 30px 150px;
+    margin-left:  230px;
+    display: flex;
+    align-items: center;
+}
+.name .profile-picture {
+    width: 584px;
 }
